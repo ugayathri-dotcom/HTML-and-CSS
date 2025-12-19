@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>card</title>
+  <style>
+    .main {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      background-color: aqua;
+      padding: 10px;
+
+    }
+
+    .oval {
+      margin-top: 350px;
+      display: flex;
+      height: 270px;
+      width: 900px;
+      border-top-left-radius: 53px;
+      border-bottom-left-radius: 53px;
+      border: 3px solid black;
+      letter-spacing: 0.3px;
+      background-color: black;
+
+      img {
+        border-image-source: left;
+        padding: 10px;
+        margin-top: 20px;
+
+      }
+
+      .content {
+
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-variant: small-caps;
+      }
+
+      .line {
+        background-color: rgb(51, 205, 34);
+        width: 3px;
+        height: 270px;
+      }
+
+      .ficons {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+    }
+
+    .fcard {
+      color: white;
+
+    }
+
+    .phone {
+      display: flex;
+      
+
+    }
+
+    .mail {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .location {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+
+    #h4 {
+      text-decoration: underline 1px solid yellow;
+      font-variant: small-caps;
+
+    }
+
+    .vertical {
+      margin-top: 200px;
+      height: 550px;
+      width: 350px;
+      border-radius: 55px;
+      border: 3px solid black;
+      letter-spacing: 0.3px;
+      background-color: black;
+
+      #im {
+        display: flex;
+        justify-content: center;
+      }
+
+
+
+      .verticontent {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-variant: small-caps;
+
+      }
+
+      #h {
+        text-decoration: underline 1px solid yellow;
+        font-variant: small-caps;
+
+
+      }
+
+      #d {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 5px;
+
+      }
+
+      #icon {
+        display: flex;
+        justify-content: center;
+
+
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="oval">
+
+      <img src="./girl.jpg" alt="" height="150cm" width="150cm">
+
+      <div class="content">
+        <h4>GAYATHRI UTHAYAKUMAR</h4>
+        <h4 id="h4">Full stack developer</h4>
+        <hr>
+        <p>I have a 2 years of experiance in staff handling.I have good
+          knowledge in python,html,javascript,css.
+          Looking for an entry level oppurtunity
+          in IT field.
+        </p>
+        <div class="ficons">
+          <img src="./instagram.png">
+          <img src="./facebook.png">
+          <img src="./linkedin.png">
+          <img src="./github.png" height="50px">
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="fcard">
+        <div class="phone">
+          <div><img src="./phone.png"></div>
+          <div>
+            <p>1234567890</p>
+          </div>
+        </div>
+        <div class="mail">
+          <div><img src="./mail.png"></div>
+          <div>
+            <p>gayathri@gmail.com</p>
+          </div>
+        </div>
+        <div class="location">
+          <div><img src="./location.png"></div>
+          <div>
+            <p>Madurai</p>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <div class="vertical">
+      <div id="im">
+        <img src="./girl.jpg" alt="" height="100cm" width="100cm">
+      </div>
+      <div class="verticontent">
+        <h4>GAYATHRI UTHAYAKUMAR</h4>
+        <h4 id="h">Full stack developer</h4>
+        <hr>
+        <p>I have a 2 years of experiance in staff handling.I have good
+          knowledge in python,html,javascript,css.Looking for an entry level oppurtunity
+          in IT field.
+        </p>
+        <div id="d">
+          <img src="./instagram.png">
+          <img src="./facebook.png">
+          <img src="./linkedin.png">
+          <img src="./github.png" height="50px">
+        </div>
+        <div id="icon">
+          <img src="./phone.png">
+          <p>1234567890</p>
+          <img src="./mail.png">
+          <p>gayathri@gmail.com</p>
+          <img src="./location.png">
+          <p>Madurai</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+</body>
+
+</html>

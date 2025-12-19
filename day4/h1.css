@@ -1,0 +1,23 @@
+h2{
+  color:darkgreen;
+  background-color: lightyellow;
+  height: 90px;
+  width: 450px;
+}
+p{
+  color:navy;
+  font-size: 30px;
+  background-color:skyblue;
+  height: 120px;
+  width: 450px;
+}
+div{
+  color:blue;
+  font-size: 30px;
+  background-color:rgb(235, 135, 215);
+  height: 120px;
+  width: 450px;
+}
+
+
+

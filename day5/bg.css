@@ -1,0 +1,31 @@
+body{
+  background-image: url("./shivan.jpg");
+
+  background-size: contain;
+  background-color: rgb(52, 150, 150);
+  background-attachment: scroll;
+  .u{
+  color:white
+}
+div h1:nth-child(even){
+  color: white
+}
+
+.s , .w
+{
+  color:black
+}
+#v{
+  color:aquamarine
+}
+*{
+  color:blue
+}
+p{
+  color:blueviolet
+}
+
+
+}
+
+

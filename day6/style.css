@@ -1,0 +1,37 @@
+*{
+  padding: 10;
+  margin: 10;
+  
+  box-sizing: border-box;
+  
+}
+#para{
+  text-align: center;
+  font-variant: small-caps;
+
+}
+#para:hover{
+  
+  color: rgb(255, 0, 238);
+  opacity:1
+}
+#u{
+  color:blueviolet;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: clamp(16px,2vw,56px);
+  font-variant: small-caps;
+  font-weight: 450;
+  opacity: 1;
+}
+#v{
+  text-align: justify;
+  text-decoration: wavy;
+  text-shadow: 2px 2px 3px yellowgreen;
+  text-indent: 5px;
+  word-wrap:3px;
+  font-variant: small-caps;
+}
+img{
+  align-content: center;
+}

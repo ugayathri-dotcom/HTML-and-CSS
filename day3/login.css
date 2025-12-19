@@ -1,0 +1,63 @@
+
+.set
+{
+  background: pink ;
+}
+.head
+{
+  text-align: center;
+  word-spacing: 10px;
+}
+.title
+{
+  text-align: center;
+  font-weight: 600;
+
+}
+.content
+{  
+  
+  align-items: center;
+  display: block;
+  text-align: left;
+  border: 2px solid black;
+  height: 350px;
+  width: 350px;
+  margin-left: 30px;
+}
+.box{
+  padding:20px;
+  margin-left: 380px;
+  
+}
+.userid
+{
+padding:8px;
+margin-top: 10px;
+}
+.password
+{
+  padding: 8px;
+}
+.member
+{
+  
+  padding:8px;
+}
+.stud
+{
+  text-align: center;
+}
+.forgot{
+  text-align: center;
+}
+.button
+{
+  padding:8px;
+  text-align: center;
+}
+.newuser
+{
+  padding: 8px;
+}
+

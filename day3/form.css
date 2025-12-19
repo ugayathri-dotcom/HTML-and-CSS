@@ -1,0 +1,66 @@
+.head
+{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-variant: small-caps;
+}
+.heading
+{
+  text-align: center;
+  word-spacing: 3px;
+}
+.main
+{
+  background:linear-gradient(pink,violet);
+}
+   .hero
+   {
+    display: grid;
+    grid-template-columns: 29% 29% 40%;
+    column-gap: 30px;
+   }
+    .con
+    {
+      padding: 5px;
+      display: grid;
+      
+    }
+    .container1
+    {
+      display: block;
+      margin-left: 20px;
+      
+    }
+    .con2
+    {
+      
+       padding: 5px;
+      display: grid;
+    }
+    .top
+    {
+      padding:25px
+    }
+    
+    .container2
+    {
+      display: block;
+      margin-left: 20px;
+    }
+    .box2
+    {
+      margin-top: 50px;
+    }
+    .con3{
+      display:grid;
+    }
+    
+    .container3
+    {
+      display: flex;
+      align-items: center;
+    }
+    .a:active{
+      color:violet;
+    }
+   
